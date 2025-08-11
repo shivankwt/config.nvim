@@ -1,0 +1,2 @@
+-- This file is required by the main init.lua
+-- It can be used for any configuration-specific initialization
