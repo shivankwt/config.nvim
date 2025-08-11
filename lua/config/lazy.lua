@@ -27,15 +27,14 @@ require('lazy').setup({
 	-- Import all plugin files
 	{ import = 'config.plugins.core' },
 	{ import = 'config.plugins.lsp' },
-	{ import = 'config.plugins.ui' },
-	{ import = 'config.plugins.tools' },
-	{ import = 'config.plugins.completion' },
-	{ import = 'config.plugins.git' },
+	{ import = 'config.plugins.which-key' },
+	{ import = 'config.plugins.telescope' },
+	{ import = 'config.plugins.blink-cmp' },
+	{ import = 'config.plugins.gitsigns' },
 	{ import = 'config.plugins.treesitter' },
 	{ import = 'config.plugins.mini' },
 	{ import = 'config.plugins.colorscheme' },
 	{ import = 'config.plugins.todo' },
-	{ import = 'config.plugins.kickstart' },
 }, {
 	ui = {
 		-- If you are using a Nerd Font: set icons to an empty table which will use the
