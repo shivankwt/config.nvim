@@ -23,6 +23,7 @@ rtp:prepend(lazypath)
 --  To update plugins you can run
 --    :Lazy update
 -- NOTE: Here is where you install your plugins.
+-- TODO: Instead of manually adding i've to a mini script here to auto install/ load plugins.
 require('lazy').setup({
 	-- Import all plugin files
 	{ import = 'config.plugins.core' },
@@ -35,6 +36,9 @@ require('lazy').setup({
 	{ import = 'config.plugins.mini' },
 	{ import = 'config.plugins.colorscheme' },
 	{ import = 'config.plugins.todo' },
+	{ import = 'config.plugins.smear-cursor' },
+	{ import = 'config.plugins.lazygit' },
+	{ import = 'config.plugins.presence' },
 }, {
 	ui = {
 		-- If you are using a Nerd Font: set icons to an empty table which will use the
