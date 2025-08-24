@@ -38,6 +38,7 @@ require('lazy').setup({
 	{ import = 'config.plugins.todo' },
 	{ import = 'config.plugins.smear-cursor' },
 	{ import = 'config.plugins.lazygit' },
+	{ import = 'config.plugins.comments' },
 }, {
 	ui = {
 		-- If you are using a Nerd Font: set icons to an empty table which will use the
