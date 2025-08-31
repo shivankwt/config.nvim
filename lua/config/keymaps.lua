@@ -27,10 +27,10 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 -- vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
 
 -- TIP: Disable arrow keys in normal mode
-vim.keymap.set('n', '<left>', '<cmd>echo "nah"<CR>')
-vim.keymap.set('n', '<right>', '<cmd>echo "nah"<CR>')
-vim.keymap.set('n', '<up>', '<cmd>echo "nah"<CR>')
-vim.keymap.set('n', '<down>', '<cmd>echo "nahh"<CR>')
+vim.keymap.set('n', '<left>', '<cmd>echo "use actual key that works genius"<CR>')
+vim.keymap.set('n', '<right>', '<cmd>echo "use actual key that works genius"<CR>')
+vim.keymap.set('n', '<up>', '<cmd>echo "use actual key that works genius"<CR>')
+vim.keymap.set('n', '<down>', '<cmd>echo "use actual key that works genius"<CR>')
 
 -- Keybinds to make split navigation easier.
 --  Use CTRL+<hjkl> to switch between windows
